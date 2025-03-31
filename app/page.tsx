@@ -262,29 +262,29 @@ const services = [
     image: "/generalmedicine.jpg?height=50&width=100",
   },
   {
-    title: "Cardiology",
-    description: "Specialized care for heart conditions with advanced diagnostic and treatment options.",
-    image: "/placeholder.svg?height=300&width=400",
+    title: "Gynaecologist",
+    description: "Comprehensive care for women at every stage of life – from routine checkups to specialized treatments.",
+    image: "/gynae.jpg?height=300&width=400",
   },
   {
     title: "Pediatrics",
     description: "Dedicated care for infants, children, and adolescents, ensuring healthy development.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/pediatrician.jpg?height=300&width=400",
   },
   {
     title: "Surgery",
     description: "State-of-the-art surgical procedures performed by experienced specialists.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/surgery.jpg?height=300&width=400",
   },
   {
     title: "Orthopedics",
     description: "Expert care for bone and joint conditions, from diagnosis to rehabilitation.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/ortho.jpg?height=300&width=400",
   },
   {
     title: "Neurology",
     description: "Specialized care for disorders of the nervous system, brain, and spinal cord.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/neuro.jpg?height=300&width=400",
   },
 ]
 

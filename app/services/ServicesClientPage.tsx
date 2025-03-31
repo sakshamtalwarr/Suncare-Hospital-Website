@@ -13,7 +13,7 @@ export default function ServicesClientPage() {
       {/* Hero Section */}
       <section className="relative h-[50vh] flex items-center">
         <Image
-          src="/placeholder.svg?height=800&width=1920"
+          src="healthcareServices.jpg?height=800&width=1920"
           alt="Suncare Hospital Services"
           fill
           className="object-cover brightness-[0.7] z-0"
@@ -130,7 +130,7 @@ export default function ServicesClientPage() {
               viewport={{ once: true }}
             >
               <Image
-                src="/placeholder.svg?height=600&width=800&text=Cardiac+Care"
+                src="/advanceCardiacCare.jpg?height=600&width=800&text=Cardiac+Care"
                 alt="Advanced Cardiac Care"
                 width={600}
                 height={400}
@@ -231,37 +231,37 @@ const medicalServices = [
     title: "General Medicine",
     description:
       "Comprehensive care for patients of all ages, focusing on prevention, diagnosis, and treatment of diseases.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/generalmedicine.jpg?height=300&width=400",
     slug: "general-medicine",
   },
   {
     title: "Internal Medicine",
     description: "Specialized care for adults, focusing on the prevention, diagnosis, and treatment of adult diseases.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/internalMed.png?height=300&width=400",
     slug: "internal-medicine",
   },
   {
     title: "Pediatrics",
     description: "Dedicated care for infants, children, and adolescents, ensuring healthy development.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/pediatrician.jpg?height=300&width=400",
     slug: "pediatrics",
   },
   {
     title: "Geriatrics",
     description: "Specialized care for elderly patients, addressing the unique health needs of aging.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/geriatrics.jpg?height=300&width=400",
     slug: "geriatrics",
   },
   {
     title: "Cardiology",
     description: "Specialized care for heart conditions with advanced diagnostic and treatment options.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/cardiowide.jpg?height=300&width=400",
     slug: "cardiology",
   },
   {
     title: "Neurology",
     description: "Specialized care for disorders of the nervous system, brain, and spinal cord.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/neuro.jpg?height=300&width=400",
     slug: "neurology",
   },
 ]
@@ -270,38 +270,20 @@ const surgicalServices = [
   {
     title: "General Surgery",
     description: "A wide range of surgical procedures performed by experienced surgeons.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/generalsurgeon.png?height=300&width=400",
     slug: "general-surgery",
   },
   {
     title: "Orthopedic Surgery",
     description: "Surgical treatment for conditions affecting the musculoskeletal system.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/ortho.jpg?height=300&width=400",
     slug: "orthopedic-surgery",
   },
   {
     title: "Cardiac Surgery",
     description: "Advanced surgical procedures for heart conditions.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/cardiowide.jpg?height=300&width=400",
     slug: "cardiac-surgery",
-  },
-  {
-    title: "Neurosurgery",
-    description: "Surgical treatment for conditions affecting the brain, spine, and nervous system.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "neurosurgery",
-  },
-  {
-    title: "Minimally Invasive Surgery",
-    description: "Advanced techniques that reduce recovery time and minimize scarring.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "minimally-invasive-surgery",
-  },
-  {
-    title: "Robotic Surgery",
-    description: "Cutting-edge robotic technology for precise surgical procedures.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "robotic-surgery",
   },
 ]
 
@@ -309,78 +291,44 @@ const diagnosticServices = [
   {
     title: "Laboratory Services",
     description: "Comprehensive testing for accurate diagnosis and treatment planning.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/medlab.jpg?height=300&width=400",
     slug: "laboratory-services",
   },
   {
     title: "Radiology",
     description: "Advanced imaging services including X-ray, CT, and MRI.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/radiology.jpg?height=300&width=400",
     slug: "radiology",
   },
   {
-    title: "Ultrasound",
-    description: "Non-invasive imaging for a variety of diagnostic purposes.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "ultrasound",
+    title: "Laprosocopic",
+    description: "Minimally invasive imaging for a variety of diagnostic purposes.",
+    image: "/laparoscopy.jpeg?height=300&width=400",
+    slug: "laprasocopic",
   },
   {
     title: "Cardiac Diagnostics",
     description: "Specialized tests to evaluate heart function and diagnose cardiac conditions.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/cardiacdiag.jpg?height=300&width=400",
     slug: "cardiac-diagnostics",
   },
-  {
-    title: "Endoscopy",
-    description: "Minimally invasive procedures to examine internal organs and tissues.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "endoscopy",
-  },
-  {
-    title: "Pathology",
-    description: "Expert analysis of tissues and cells for accurate diagnosis.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "pathology",
-  },
+  
 ]
 
 const specialtyServices = [
   {
-    title: "Oncology",
-    description: "Comprehensive cancer care including diagnosis, treatment, and support services.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "oncology",
-  },
-  {
     title: "Obstetrics & Gynecology",
     description: "Specialized care for women's health needs throughout all stages of life.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/gynaecare.jpg?height=300&width=400",
     slug: "obstetrics-gynecology",
   },
   {
-    title: "Dermatology",
-    description: "Diagnosis and treatment of conditions affecting the skin, hair, and nails.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "dermatology",
+    title: "24x7 Pharmacy and Ambulance service",
+    description: "We have 24x7 Pharmacy and Ambulance service.",
+    image: "/ambulance.png?height=300&width=400",
+    slug: "24x7-pharmacy-and-ambulance-service",
   },
-  {
-    title: "Rehabilitation",
-    description: "Comprehensive rehabilitation services to help patients regain function and independence.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "rehabilitation",
-  },
-  {
-    title: "Mental Health",
-    description: "Compassionate care for mental health conditions and emotional well-being.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "mental-health",
-  },
-  {
-    title: "Pain Management",
-    description: "Specialized care to help patients manage chronic pain and improve quality of life.",
-    image: "/placeholder.svg?height=300&width=400",
-    slug: "pain-management",
-  },
+
 ]
 
 const cardiacServices = [
